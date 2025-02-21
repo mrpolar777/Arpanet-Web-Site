@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="shortcut icon" href="src/ico/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>Arpanet - Timeline</title>
+</head>
+<body>
+    <!-- header -->
+    <button class="menu-toggle" id="menuButton" onclick="toggleMenu()">☰</button>
+
+    <nav class="sidebar" id="sidebar">
+        <a href="#1969">1969</a>
+        <a href="#1970">1970</a>
+        <a href="#1971">1971</a>
+        <a href="#1972">1972</a>
+        <a href="#1973">1973</a>
+        <a href="#1974">1974</a>
+        <a href="#1978">1978</a>
+        <a href="#1980">1980</a>
+    </nav>
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#1969">1969</li></a>
+                <li><a href="#1970">1970</li></a>
+                <li><a href="#1971">1971</li></a>
+                <li><a href="#1972">1972</li></a>
+                <li><a href="#1973">1973</li></a>
+                <li><a href="#1974">1974</li></a>
+                <li><a href="#1978">1978</li></a>
+                <li><a href="#1980">1980</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="header">
+        <img class="logo-arpanet" src="src/images/logo_arpanet.png" alt="LOGO Imagem da ARPANET" />
+        <h3 class="text_header">
+            A ARPANET foi a primeira rede de computadores, criada nos anos 1960 pela
+            ARPA dos EUA. Ela usava comutação de pacotes e conectou universidades
+            para troca de dados. Seu protocolo TCP/IP, adotado em 1983, foi
+            essencial para a internet. A rede foi desativada em 1990, deixando um
+            grande legado.
+        </h3>
+        <div id="fumaca-escura"></div>
+    </div>
+
+
+    <!-- button arrow -->
+    <a href="#timeline">
+        <section class="button_arrow">
+            <div class="button_arrow-icon">
+                <img src="src/images/arrow.png" alt="Seta para baixo" />
+            </div>
+        </section>
+    </a>
+    <div class="wrapper">
+        <div class="center-line">
+            <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+        </div>
+
+
+        <!-- Timeline -->
+        <div class="timeline-title-container" id="timeline">
+            <h2 class="text_timeline">TIMELINE</h2>
+            <div class="timeline-line"></div> <!-- Linha abaixo do título -->
+        </div>
+
+
+        <div class="row row-1">
+            <section>
+                <i id="1969" class="icon fas fa-globe"></i>
+                <div class="details">
+                    <span class="title">COMUTAÇÃO DE PACOTES</span>
+                    <span>1969</span>
+                    
+                </div>
+                <img class="img_desktop" src="src/images/img_1969.png" alt="">
+                <p class="paragrafo">A comutação de pacotes é um método fundamental de transmissão de dados, onde as informações são divididas em
+                    pacotes
+                    menores, contendo tanto os dados quanto informações de controle, como o endereço de origem, destino e número
+                    de
+                    sequência. Cada pacote é enviado de forma independente pela rede e pode seguir diferentes caminhos até
+                    chegar ao seu
+                    destino final. Quando os pacotes chegam, eles são reorganizados na ordem correta para reconstituir os dados
+                    originais.
+                </p>
+            </section>
+            <img src="src/images/img_1969.png" alt="imagem 1969" class="section-img img-right">
+        </div>
+        
+        <div class="row row-2">
+            <img src="src/images/img_1970.png" alt="imagem 1970" class="section-img img-left">
+            <section>
+                <i id="1970" class="icon fas fa-globe"></i>
+                <div class="details">
+                    <span class="title">HOSTS E HOSTS DE COMUNICAÇÃO</span>
+                    <span >1970</span>
+                </div>
+                <img class="img_desktop" src="src/images/img_1970.png" alt="">
+                <p class="paragrafo">Os primeiros computadores conectados à ARPANet, conhecidos como "hosts", começaram a se comunicar diretamente
+                    uns com os
+                    outros, estabelecendo as bases para a troca de dados e arquivos entre sistemas. Em 1970, a ARPANet conectou
+                    os primeiros
+                    hosts, permitindo que computadores localizados em diferentes lugares se comunicassem diretamente pela rede.
+                    Usando o IMP
+                    (Interface Message Processor), esses hosts podiam trocar arquivos e compartilhar recursos, formando a base
+                    para redes
+                    distribuídas e o futuro modelo de comunicação cliente-servidor. Isso foi essencial para o desenvolvimento de
+                    serviços
+                    como e-mail e transferência de arquivos.</p>
+            </section>
+        
+        </div>
+        
+        <div class="row row-1">
+            <section>
+                <i id="1971" class="icon fas fa-globe"></i>
+                <div class="details">
+                    <span class="title">DESENVOLVIMENTO DO NCP</span>
+                    <span>1971</span>
+                </div>
+                <img class="img_desktop" src="src/images/img_1971.png" alt="">
+                <p class="paragrafo">O NCP foi criado para controlar a comunicação entre hosts. Esse foi o primeiro protocolo formal da ARPANet,
+                    sendo o
+                    precursor dos protocolos de rede modernos como o TCP/IP. Em 1971, o NCP (Network Control Protocol) foi
+                    desenvolvido como
+                    o primeiro protocolo da ARPANet, permitindo a comunicação padronizada entre os hosts. Ele gerenciava
+                    conexões e a troca
+                    de dados, permitindo serviços como login remoto e transferência de arquivos. O NCP estabeleceu a base para
+                    as redes
+                    modernas, mas foi substituído pelo TCP/IP devido a suas limitações em escalabilidade e robustez.</p>
+            </section>
+            <img src="src/images/img_1971.png" alt="imagem 1971" class="section-img img-right">
+        </div>
+        
+        <div class="row row-2">
+            <img src="src/images/img_1972.png" alt="imagem 1972" class="section-img img-left">
+            <section>
+                <i id="1972" class="icon fas fa-globe"></i>
+                <div class="details">
+                    <span class="title">PRIMEIRA DEMONSTRAÇÃO PÚBLICA DA ARPANET</span>
+                    <span>1972</span>
+                </div>
+                <img class="img_desktop" src="src/images/img_1972.png" alt="">
+                <p class="paragrafo">A ARPANet foi demonstrada publicamente na International Computer Communication Conference (ICCC), mostrando
+                    sua
+                    capacidade de conectar múltiplos nós, introduzindo o conceito de uma rede interconectada. Em 1972, a ARPANet
+                    foi
+                    apresentada ao público pela primeira vez durante a Conferência Internacional de Comunicações por Computador.
+                    Nessa
+                    demonstração, mostrou-se como computadores interconectados podiam trocar mensagens e compartilhar recursos
+                    em tempo
+                    real. Esse marco destacou o potencial das redes de computadores e pavimentou o caminho para o
+                    desenvolvimento de
+                    protocolos como o TCP/IP, fundamentais para a criação da internet moderna.</p>
+            </section>
+        </div>
+        
+        <div class="row row-1">
+            <section>
+                <i id="1973" class="icon fas fa-globe"></i>
+                <div class="details">
+                    <span class="title">ROTEAMENTO DINÂMICO</span>
+                    <span>1973</span>
+                </div>
+                <img class="img_desktop" src="src/images/img_1973.png" alt="">
+                <p class="paragrafo">Em 1973, o roteamento dinâmico começou a ganhar destaque como uma solução eficiente para redes de
+                    computadores.
+                    Diferente do roteamento estático, essa abordagem permite que os roteadores troquem informações
+                    automaticamente,
+                    adaptando-se às mudanças na rede sem intervenção manual. Essa inovação tornou-se uma comunicação mais
+                    robusta e
+                    eficiente, garantindo a escolha dos melhores caminhos para a transmissão de dados. O desenvolvimento de
+                    protocolos como
+                    o RIP (Routing Information Protocol) foi um passo essencial para a implementação do roteamento dinâmico,
+                    influenciando
+                    diretamente a evolução das redes modernas.</p>
+            </section>
+            <img src="src/images/img_1973.png" alt="imagem 1973" class="section-img img-right">
+        </div>
+
+        <div class="row row-2">
+            <img src="src/images/img_1974.png" alt="imagem 1974" class="section-img img-left">
+            <section>
+                <i id="1974" class="icon fas fa-globe"></i>
+                <div class="details">
+                    <span class="title">DESENVOLVIMENTO DO TCP/IP</span>
+                    <span>1974</span>
+                </div>
+                <img class="img_desktop" src="src/images/img_1974.png" alt="">
+                <p class="paragrafo">Em 1974, começou o desenvolvimento do TCP/IP para substituir o NCP, trazendo mais flexibilidade e padronização na
+                comunicação entre redes. O TCP gerencia a transmissão dos dados, enquanto o IP cuida do endereçamento e roteamento.
+                Projetado para ser independente do hardware, o TCP/IP facilitou a expansão das redes. Sua estrutura modular permitiu
+                maior escalabilidade e adaptação a diferentes tecnologias. Com essa evolução, a comunicação entre computadores tornou-se
+                mais eficiente. O TCP/IP se tornou a base da internet moderna, permitindo sua ampla conectividade global.</p>
+            </section>
+        </div>
+
+        <div class="row row-1">
+            <section>
+                <i id="1978" class="icon fas fa-globe"></i>
+                <div class="details">
+                    <span class="title">TCP/IP PADRÃO DA ARPANet</span>
+                    <span>1978-1983</span>
+                </div>
+                <img class="img_desktop" src="src/images/img_1978.png" alt="">
+                <p class="paragrafo">O protocolo TCP/IP (Transmission Control Protocol/Internet Protocol) foi adotado como o padrão para a ARPANet, marcando
+                um momento crucial na história das redes de computadores. Antes disso, o NCP (Network Control Protocol) era o principal
+                protocolo usado na ARPANet, mas ele tinha limitações em termos de flexibilidade, escalabilidade e interconexão de redes.
+                Essas limitações levaram à necessidade de um novo protocolo que pudesse resolver esses problemas, dando origem ao
+                desenvolvimento do TCP/IP.</p>
+            </section>
+            <img src="src/images/img_1978.png" alt="imagem 1978" class="section-img img-right">
+        </div>
+
+        <div  class="row row-2">
+            <img src="src/images/img_1980.png" alt="imagem 1980" class="section-img img-left">
+            <section>
+                <i id="1980" class="icon fas fa-globe"></i>
+                <div class="details">
+                    <span class="title">ARQUITETURA CLIENTE-SERVIDOR</span>
+                    <span>1980</span>
+                </div>
+                <img class="img_desktop" src="src/images/img_1980.png" alt="">
+                <p class="paragrafo">Na década de 1980, a ARPANet começou a adotar amplamente a arquitetura cliente-servidor. Nesse modelo, os clientes
+                enviam requisições, e os servidores processam e retornam respostas. Essa estrutura trouxe mais eficiência e organização
+                para as redes. A separação de funções permitiu maior escalabilidade, desempenho e facilidade de manutenção. Além disso,
+                possibilitou o desenvolvimento de serviços online mais complexos. Esse modelo se tornou essencial para sistemas
+                distribuídos e aplicações web. Sua flexibilidade contribuiu para a evolução da internet. Até hoje, a arquitetura
+                cliente-servidor continua sendo amplamente utilizada.
+                </p>
+            </section>
+        </div>
+
+
+        <!-- footer -->
+        <footer class="footer">
+            <div>
+                <h3>Alunos</h3>
+                <hr>
+                <ul>
+                    <li>Amanda Coelho dos Santos Gondra - 01734337</li>
+                    <li><a href="https://github.com/AnisioDiogo" target="_blank">Anisio Diogo - 01702603</a></li>
+                    <li><a href="https://github.com/odevjulio">Júlio Praxedes de Sousa Neto - 01697832</a></li>
+                    <li><a href="https://github.com/mrpolar777" target="_blank">Henrique Costa - 19375820</a></li>
+                    <li><a href="https://github.com/Nicolas5085" target="_blank">Nicolas Rômulo Gomes Nascimento - 01707725</a>
+                    </li>
+                    <li><a href="https://github.com/Frutuoozo">Letícia Frutuozo Carvalho Cavalcante - 01722706</a></li>
+                    <li><a href="https://github.com/Pedro1274" target="_blank">Pedro Ruan Lima Alves - 01685056</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Disciplina</h3>
+                <hr>
+                <ul>
+                    <li>Rede de computadores</li>
+                    <li>Ciência da computação</li>
+                    <li>3º Período</li>
+                    <li>UNINASSAU</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Referências</h3>
+                <hr>
+                <ul>
+                    <li><a href="https://openai.com/chatgpt/overview/" target="_blank">OpenAI - 2025</a></li>
+                    <li><a href="https://pt.wikipedia.org/wiki/ARPANET" target="_blank">Wikipedia - ARPANET</a></li>
+                    <li><a href="https://webflow.com/made-in-webflow/website/Cloneable-Year-Review-2021" target="_blank">Webflow
+                            - Design</a></li>
+                    <li><a href="https://www.behance.net/gallery/217593081/web-site/modules/1239592203" target="_blank">Behance
+                            - Design</a></li>
+                </ul>
+            </div>
+        </footer>
+        
+</body>
+<script src="src/js/scripts.js"></script>
+
+</html>
