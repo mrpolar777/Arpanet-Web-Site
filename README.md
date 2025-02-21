@@ -27,23 +27,23 @@ Caso deseje acessar o site:
 
 Caso queria verirficar todos os arquivos utilizados na produção do site atenção para as intruções:
 
-**link do repositório:**
+**Link do repositório:**
 
-1. faça o download dos arquivos;
-2. abra a pasta "Arpanet Web Site" com editor de sua preferência;
-3. abra o arquivo "index.html" com o navegador que desejar.
+1. Faça o download dos arquivos;
+2. Abra a pasta "Arpanet Web Site" com editor de sua preferência;
+3. Abra o arquivo "index.html" com o navegador que desejar.
 
 ## 💡 Funcionalidades
 
-- desing organizado;
-- interface intuitiva;
-- controle total da linha do tempo.
+- Design organizado;
+- Interface intuitiva;
+- Controle total da linha do tempo.
 
 ## 🤝 Colaborações
 
  ALUNOS | MATRÍCULA
 ------- | ------
-Amanda Coelho dos Santos Gondra| 01734337
+Amanda Coelho dos Santos Gondra | 01734337
 Anisio Diogo | 01702603
 Júlio Praxedes de Sousa Neto | 01697832
 Henrique Costa | 19375820
