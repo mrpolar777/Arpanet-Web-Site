@@ -23,7 +23,7 @@ Site desenvolvito para ilustrar a história de vida da primeira rede de computad
 ## 🧭 Como usar:
 
 Caso deseje acessar o site:
-- link: 
+- link: https://arpanettimeline.netlify.app/
 
 Caso queria verirficar todos os arquivos utilizados na produção do site atenção para as intruções:
 
