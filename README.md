@@ -1,9 +1,10 @@
-
  # 🌐 História da ARPANET
 
 Site desenvolvito para ilustrar a história de vida da primeira rede de computadores. feito em HTML, CSS, JS com o intuito de deixar a aprendizagem sobre o tema mais simples e compreensível.
 
 ---
+
+![Tela principal](src/images/Print_Landing_Page.webp)
 
 ## 📜 Conteúdo do Site:
 
@@ -23,7 +24,7 @@ Site desenvolvito para ilustrar a história de vida da primeira rede de computad
 ## 🧭 Como usar:
 
 Caso deseje acessar o site:
-- link: https://arpanettimeline.netlify.app/
+- Link do site: https://arpanettimeline.netlify.app/
 
 Caso queria verirficar todos os arquivos utilizados na produção do site atenção para as intruções:
 
